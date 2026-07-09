@@ -17,17 +17,18 @@
 <header class="site-header" id="top">
   <div class="wrap header-inner">
     <a href="#top" class="brand">
-      <img src="assets/img/logo.jpg" alt="Gonzales Embroidery" class="brand-logo">
+      <img src="assets/img/logo-transparent.png" alt="Gonzales Embroidery" class="brand-logo">
     </a>
 
     <nav class="main-nav" id="mainNav">
       <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#process">Process</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="turnaround.html">Turnaround</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <a class="btn btn-tag header-cta" href="mailto:order@gonzalesembroidery.com?subject=Quote%20Request">Get a Quote</a>
+    <a class="btn btn-tag header-cta" href="#contact">Get a Quote</a>
 
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
@@ -43,7 +44,7 @@
     <p class="hero-sub">From one-off keepsakes to bulk team orders — embroidery, patches, caps,
       and print apparel, made with careful hands and fast turnaround.</p>
     <div class="hero-actions">
-      <a href="mailto:order@gonzalesembroidery.com?subject=Quote%20Request" class="btn btn-solid">Get a Quote</a>
+      <a href="#contact" class="btn btn-solid">Get a Quote</a>
       <a href="#work" class="btn btn-outline">See Our Work</a>
     </div>
   </div>
@@ -59,6 +60,9 @@
   <div class="wrap">
     <p class="eyebrow eyebrow-dark">What We Stitch</p>
     <h2 class="section-title">Services made to order</h2>
+    <p style="margin:-24px 0 40px; font-size:14.5px; color:#57544e;">
+      See exact rates on our <a href="pricing.html" style="color:var(--red); text-decoration:underline;">Pricing page</a>.
+    </p>
 
     <div class="card-grid">
       <div class="patch-card">
@@ -95,37 +99,25 @@
   </div>
 </section>
 
-<!-- ============ WORK / GALLERY ============ -->
+<!-- ============ FEATURED WORK ============ -->
 <section class="work" id="work">
   <div class="wrap">
     <p class="eyebrow">Recent Work</p>
     <h2 class="section-title section-title-light">Stitched &amp; printed for real people</h2>
 
-    <div class="filters" id="filters">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="apparel">Apparel</button>
-      <button class="filter-btn" data-filter="caps">Caps</button>
-      <button class="filter-btn" data-filter="patches">Patches</button>
-      <button class="filter-btn" data-filter="team">Team &amp; Print</button>
+    <div class="gallery" id="gallery">
+      <figure class="g-item"><img loading="lazy" src="assets/img/digi-warrior-cap.jpg" alt="Ultimate Warrior embroidered snapback"><figcaption>Ultimate Warrior embroidered snapback</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/apparel-mama.jpg" alt="This Mama Loves Her Little Nightmares custom embroidery"><figcaption>Family embroidery — “This Mama Loves Her Little Nightmares”</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/patch-gallera.jpg" alt="Gallera Los Mochis PVC patches"><figcaption>Gallera Los Mochis — custom PVC patches</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/vector-oilers-football.jpg" alt="East Houston Oilers football tee"><figcaption>East Houston Oilers — full-color print</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/apparel-jacket-red.jpg" alt="Lawrence Co Classics Car Club denim jacket embroidery"><figcaption>Lawrence Co. Classics Car Club — denim jacket</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/digi-fourthgrade.jpg" alt="Fourth Grade embroidered sweatshirt"><figcaption>“Fourth Grade” embroidered sweatshirt</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/vector-mama-fallvibes-tired.jpg" alt="Mama and Fall Vibes print tees"><figcaption>Mama &amp; Fall Vibes — custom print designs</figcaption></figure>
+      <figure class="g-item"><img loading="lazy" src="assets/img/cap-salty.jpg" alt="Salty embroidered trucker cap"><figcaption>“Salty” embroidered trucker cap</figcaption></figure>
     </div>
 
-    <div class="gallery" id="gallery">
-      <figure class="g-item" data-cat="apparel"><img loading="lazy" src="assets/img/apparel-mama.jpg" alt="This Mama Loves Her Little Nightmares custom embroidery"><figcaption>Family embroidery — “This Mama Loves Her Little Nightmares”</figcaption></figure>
-      <figure class="g-item" data-cat="apparel"><img loading="lazy" src="assets/img/apparel-jacket-red.jpg" alt="Lawrence Co Classics Car Club denim jacket embroidery"><figcaption>Lawrence Co. Classics Car Club — denim jacket</figcaption></figure>
-      <figure class="g-item" data-cat="caps"><img loading="lazy" src="assets/img/cap-salty.jpg" alt="Salty embroidered trucker cap"><figcaption>“Salty” embroidered trucker cap</figcaption></figure>
-      <figure class="g-item" data-cat="team"><img loading="lazy" src="assets/img/team-astros.jpg" alt="Houston Astros fan tees"><figcaption>Houston Astros fan tees — custom prints</figcaption></figure>
-      <figure class="g-item" data-cat="patches"><img loading="lazy" src="assets/img/patch-pilates.jpg" alt="Pilates on my mind embroidered patches"><figcaption>“Pilates On My Mind” patch run</figcaption></figure>
-      <figure class="g-item" data-cat="apparel"><img loading="lazy" src="assets/img/apparel-bebop.jpg" alt="Cowboy Bebop tribute embroidery"><figcaption>Cowboy Bebop tribute embroidery</figcaption></figure>
-      <figure class="g-item" data-cat="caps"><img loading="lazy" src="assets/img/cap-mama-stack.jpg" alt="MAMA and Americana embroidered caps"><figcaption>MAMA &amp; Americana embroidered caps</figcaption></figure>
-      <figure class="g-item" data-cat="team"><img loading="lazy" src="assets/img/team-cheeraunt.jpg" alt="Cheer Aunt custom photo tee"><figcaption>“Cheer Aunt” custom photo tee</figcaption></figure>
-      <figure class="g-item" data-cat="patches"><img loading="lazy" src="assets/img/patch-leather.jpg" alt="Laser engraved leather patch collection"><figcaption>Laser-engraved leather patches</figcaption></figure>
-      <figure class="g-item" data-cat="apparel"><img loading="lazy" src="assets/img/apparel-jacket-black.jpg" alt="Lawrence Co Classics Car Club vintage truck jacket"><figcaption>Lawrence Co. Classics — vintage truck design</figcaption></figure>
-      <figure class="g-item" data-cat="caps"><img loading="lazy" src="assets/img/cap-wolves.jpg" alt="Wolves two tone embroidered snapback"><figcaption>Wolves two-tone embroidered snapback</figcaption></figure>
-      <figure class="g-item" data-cat="team"><img loading="lazy" src="assets/img/team-golftowel.jpg" alt="Personalized embroidered golf towel"><figcaption>Personalized embroidered golf towel</figcaption></figure>
-      <figure class="g-item" data-cat="apparel"><img loading="lazy" src="assets/img/apparel-kidzcan.jpg" alt="KidzCan Budget embroidered polo and tee"><figcaption>KidzCan Budget — corporate embroidery</figcaption></figure>
-      <figure class="g-item" data-cat="caps"><img loading="lazy" src="assets/img/cap-wave.jpg" alt="Custom wave logo embroidered cap"><figcaption>Custom wave logo embroidered cap</figcaption></figure>
-      <figure class="g-item" data-cat="patches"><img loading="lazy" src="assets/img/patch-skeleton.jpg" alt="Custom skeleton beach patch"><figcaption>Custom skeleton beach patch</figcaption></figure>
-      <figure class="g-item" data-cat="team"><img loading="lazy" src="assets/img/team-sewfly.jpg" alt="Sew Fly team delivering a bulk order"><figcaption>Delivering a bulk order — Wharton, TX</figcaption></figure>
+    <div class="work-cta">
+      <a href="portfolio.html" class="btn btn-outline">View Full Portfolio</a>
     </div>
   </div>
 </section>
@@ -159,6 +151,10 @@
       </div>
     </div>
 
+    <div class="work-cta" style="margin-bottom:44px;">
+      <a href="turnaround.html" class="btn btn-tag">See Detailed Turnaround Times</a>
+    </div>
+
     <div class="process-photos">
       <img loading="lazy" src="assets/img/process-machine.jpg" alt="Embroidery machine stitching a cap">
       <img loading="lazy" src="assets/img/process-print.jpg" alt="Freshly printed team t-shirt">
@@ -189,13 +185,17 @@
       </a>
     </div>
 
-    <form class="quote-form" id="quoteForm">
+    <form class="quote-form" id="quoteForm" action="send-quote.php" method="POST" novalidate>
       <div class="form-row">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
       </div>
+      <input type="text" name="company" placeholder="Company / Team (optional)">
       <textarea name="details" rows="4" placeholder="What would you like made? (item, quantity, deadline...)" required></textarea>
+      <!-- honeypot field, hidden from real visitors -->
+      <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off">
       <button type="submit" class="btn btn-solid">Send Request</button>
+      <p class="form-status" id="formStatus"></p>
     </form>
   </div>
 </section>
@@ -204,12 +204,13 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <a href="#top" class="brand brand-footer">
-      <img src="assets/img/logo.jpg" alt="Gonzales Embroidery" class="brand-logo">
+      <img src="assets/img/logo-transparent.png" alt="Gonzales Embroidery" class="brand-logo">
     </a>
     <nav class="footer-nav">
       <a href="#services">Services</a>
-      <a href="#work">Work</a>
-      <a href="#process">Process</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="turnaround.html">Turnaround</a>
       <a href="#contact">Contact</a>
     </nav>
     <p class="footer-copy">&copy; <span id="year"></span> Gonzales Embroidery. All rights reserved.</p>
